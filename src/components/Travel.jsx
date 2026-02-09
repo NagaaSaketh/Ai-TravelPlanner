@@ -5,9 +5,9 @@ const Travel = () => {
   const [travelData, setTravelData] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [city, setCity] = useState("Paris");
-  const [country, setCountry] = useState("France");
-  const [days, setDays] = useState(4);
+  const [city, setCity] = useState("");
+  const [country, setCountry] = useState("");
+  const [days, setDays] = useState(1);
 
   const generateTravel = async (city, country, days) => {
     try {
