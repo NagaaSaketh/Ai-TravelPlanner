@@ -15,7 +15,7 @@ const Travel = () => {
       setError("");
 
       const response = await axios.get(
-        `http://localhost:3000/api/travel-plan?city=${city}&country=${country}&days=${days}`,
+        `https://travel-planner-ai-be.vercel.app/api/travel-plan?city=${city}&country=${country}&days=${days}`,
       );
 
       setTravelData(response.data);
