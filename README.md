@@ -1,7 +1,7 @@
 # AI Travel Planner
 
 An AI-powered travel planning app where you can generate a personalized travel plan for any destination in seconds.  
-Built with a React frontend, Express/Node backend, MongoDB database, and OpenAI-compatible LLM via OpenRouter.
+Built with a React frontend, Express/Node backend, and an OpenAI-compatible LLM via OpenRouter.
 
 ---
 
@@ -40,7 +40,6 @@ node index.js
 - Axios
 - Node.js
 - Express
-- MongoDB / Mongoose
 - OpenAI SDK (OpenRouter)
 
 ## Features
